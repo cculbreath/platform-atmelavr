@@ -15,7 +15,7 @@
 from platformio.managers.platform import PlatformBase
 
 
-class CcAtmelavrPlatform(PlatformBase):
+class CcatmelavrPlatform(PlatformBase):
 
     def configure_default_packages(self, variables, targets):
         if not variables.get("board"):
